@@ -224,6 +224,11 @@ jobs:
           cmake ..
           make
           mv kptools kptools-linux
+      - name: Upload kptools-linux
+        uses: actions/upload-artifact@v3
+        with:
+          path: kptools-linux
+          name: kptools-linux
 
       - name: Release
         uses: ncipollo/release-action@v1.12.0
