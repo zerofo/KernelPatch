@@ -78,6 +78,7 @@ jobs:
           path: |
             kernel/kpimg.elf-linux
             kernel/kpimg.elf-android
+            kernel/kpimg-linux
           name: kpimg.elf
 
       - name: Release
