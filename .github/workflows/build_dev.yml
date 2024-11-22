@@ -80,6 +80,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: |
+            kernel/kpimg-linux
             kernel/kpimg.elf-linux
             kernel/kpimg.elf-android
           name: kpimg.elf
@@ -227,7 +228,7 @@ jobs:
       - name: Upload kptools-linux
         uses: actions/upload-artifact@v3
         with:
-          path: kptools-linux
+          path: tools/build/kptools-linux
           name: kptools-linux
 
       - name: Release
