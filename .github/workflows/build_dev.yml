@@ -83,6 +83,7 @@ jobs:
             kernel/kpimg-linux
             kernel/kpimg.elf-linux
             kernel/kpimg.elf-android
+            kernel/kpimg-android
           name: kpimg.elf
 
       - name: Release
