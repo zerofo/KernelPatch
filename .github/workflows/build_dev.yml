@@ -186,7 +186,7 @@ jobs:
       - name: Upload kptools-android
         uses: actions/upload-artifact@v3
         with:
-          path: tools/build/kptools-android
+          path: tools/build/android/kptools-android
           name: kptools-android
       - name: Release
         uses: ncipollo/release-action@v1.12.0
